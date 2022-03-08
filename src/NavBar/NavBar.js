@@ -13,7 +13,6 @@ function NavBar({names}){
     }
 return(
     <>
-    {/* {isCustomOpen? <CustomPop names={names} handleCustomClose={handleCustomClose} handleClickedCustom={handleClickedCustom}/> :null} */}
     <div className='navbar'>
         <h2>Dog Gallery</h2>
         <button type='submit' className='btn' onClick={handleClickedCustom}>Custom Search</button>

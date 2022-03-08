@@ -74,7 +74,7 @@ function CustomPop({ names, handleCustomClose }) {
                         
 <h3>{`Showing ${number} images of ${selectedOption}`}</h3>
    
-  {customImg && customImg.map((image,i) => {
+  {customImg.map((image,i) => {
 
             return <img src={image} key={i} alt='dog'></img>
         })}
